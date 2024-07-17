@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Example</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light gray background color */
+            font-family: Arial, sans-serif;
+            color: #333; /* Dark gray text color */
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to my Website</h1>
+        <p>This is a sample text on a website with a background color.</p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+            // Example JavaScript for filtering images by category
+        function filterImages(category) {
+            const items = document.querySelectorAll('.gallery-item');
+            items.forEach(item => {
+                const cat = item.getAttribute('data-category');
+                if (cat === category || category === 'all') {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('images1.jpg'); /* Replace with your image URL or path */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
+    <div class="content">
+        <h1>Welcome to my Website</h1>
+        <p>Hi my name is KUSH im a Gamer.</p>
+    </div>
